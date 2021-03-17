@@ -13,7 +13,9 @@ steps:
     BrowserStackServiceEndPoint: 'BSConnection'
     browserstackLocal: false
 - script: |
-    cd testng-appium-app-browserstack/android/testng-examples/
+    cd testng-appium-app-browserstack/
+    cd android/
+    cd testng-examples/
     mvn clean
     mvn test -P first
   displayName: 'trying mvn'
